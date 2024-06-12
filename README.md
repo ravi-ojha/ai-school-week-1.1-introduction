@@ -62,4 +62,3 @@ To run any in-class examples, execute the server file directly from the command 
 ```bash
 python3 in_class_examples/[file-name]
 ```
-After the server is running locally, you can interact with it inside `client.ipynb`.
