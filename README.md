@@ -1,4 +1,4 @@
-# Week 8.1: Syllabus and Reviewing LLM Essentials
+# Week 1.1: Syllabus and Reviewing LLM Essentials
 
 ## Introduction
 To make the most out of this course, understand that LLMs are powerful tools for next token generation, leveraging advanced statistical analysis beyond simple models.
