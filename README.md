@@ -48,10 +48,19 @@ cp .env.sample .env
 ### Step 6: Update `.env` File
 Open the `.env` file and update the key values as necessary.
 
-### Step 7: Export the Variables Inside Your Environment
-Run the environment setup script:
+### Step 7: Load Environmental Variables from the `.env` File
+Use the following command to export all of your environmental variables while ignoring any comments:
 ```bash
-export OPENAI_API_KEY=[your-key-here]
+export $(grep -v '^#' .env | xargs)
+```
+
+### Alternatively
+If you experience problems using the `.env` file or do not wish to use one, you can load the variables directly from your shell
+
+### Step 8: Load the Variables Inside Your Shell
+Use a command structured like this to load each variable:
+```bash
+export OPENAI_API_KEY=your-key-here
 ```
 
 ## Usage
